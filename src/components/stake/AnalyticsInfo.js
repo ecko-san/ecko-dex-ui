@@ -8,7 +8,7 @@ const AnalyticsInfo = () => {
     <FlexContainer className="column" gap={16}>
       <Label fontSize={16}>Daily Income</Label>
       <Label>
-        It is an estimate of the amount of KDX you will get at the end of the day as a reward for your KDX staking position. It comes from the 0.05%
+        It is an estimate of the amount of KDX you will get at the end of the day as a reward for participating in governance mining. It comes from the 0.05%
         of the overall DEX trading fees.
       </Label>
       <Divider />
@@ -20,15 +20,15 @@ const AnalyticsInfo = () => {
       <Divider />
       <Label fontSize={16}>KDX Burned</Label>
       <Label>
-        It represents the total amount of KDX that has been burned through penalties on the position or rewards consequent to unstaking within the
+        It represents the total amount of KDX that has been burned through penalties on the position or rewards consequent to unlocking within the
         first 72h or withdrawing rewards within the initial 60-day window, respectively.
       </Label>
       <Divider />
       <Label fontSize={16}>Staked Share</Label>
-      <Label>Your personal percentage share of KDX amongst all the KDX currently being staked.</Label>
+      <Label>Your personal percentage share of KDX amongst all the KDX currently being locked in governance mining.</Label>
       <Divider />
       <Label fontSize={16}>Total Staked</Label>
-      <Label>It shows the percentage of KDX being staked with respect to the total KDX circulating supply.</Label>
+      <Label>It shows the percentage of KDX being locked with respect to the total KDX circulating supply.</Label>
     </FlexContainer>
   );
 };
